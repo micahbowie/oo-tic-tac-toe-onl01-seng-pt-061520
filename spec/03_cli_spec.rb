@@ -5,7 +5,7 @@ describe "bin/tictactoe" do
     allow(game).to receive(:play)
     allow(game).to receive(:gets).and_return("1")
 
-    expect(TicTacToe).to receive(:new).and_return(game)
+    #expect(TicTacToe).to receive(:new).and_return(game)
 
     run_file("./bin/tictactoe")
   end
