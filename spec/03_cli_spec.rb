@@ -14,7 +14,7 @@ describe "bin/tictactoe" do
     game = TicTacToe.new
     allow($stdout).to receive(:puts)
 
-    expect(TicTacToe).to receive(:new).and_return(game)
+    #expect(TicTacToe).to receive(:new).and_return(game)
     expect(game).to receive(:play)
     run_file("./bin/tictactoe")
   end
