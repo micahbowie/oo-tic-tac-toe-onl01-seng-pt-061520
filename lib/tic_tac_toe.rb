@@ -11,7 +11,7 @@ class TicTacToe
     [6, 4, 2]
   ]
 
-def initialize(new_game)
+def initialize
   @board = Array.new(9, " ")
 end
 
